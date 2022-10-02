@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>//www.mikeparanoid.com/</loc>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/about/</loc>
+        <lastmod>2022-09-17</lastmod>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/blog/</loc>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/blog/2022-10-02-whyiamstartingablog/</loc>
+        <lastmod>2022-10-02</lastmod>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/page/1/</loc>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/projects/</loc>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/projects/blog/</loc>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/projects/blog/00-project-zola-blog/</loc>
+        <lastmod>2022-09-18</lastmod>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/tags/</loc>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/tags/blog/</loc>
+    </url>
+</urlset>

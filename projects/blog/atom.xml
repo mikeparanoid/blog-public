@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Mike Paranoid&#x27;s Blog. - blog</title>
+	<subtitle>Documenting my projects, and my thoughts.</subtitle>
+	<link href="//www.mikeparanoid.com/projects/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="//www.mikeparanoid.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-18T00:00:00+00:00</updated>
+	<id>//www.mikeparanoid.com/projects/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Building this blog: Part 1 - Up and running</title>
+		<published>2022-09-18T00:00:00+00:00</published>
+		<updated>2022-09-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="//www.mikeparanoid.com/projects/blog/00-project-zola-blog/" type="text/html"/>
+		<id>//www.mikeparanoid.com/projects/blog/00-project-zola-blog/</id>
+		<content type="html">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;p&gt;I have wanted to build a blog for a while, and after trying a number of different static site generators, I settled on Zola, because I think it is the simplest tool to get the job done for myself.&lt;&#x2F;p&gt;
+&lt;p&gt;Previously, I had played around with: Hugo, Pelican, and Lektor, but none of these were simple enough for me to be bothered to use.
+After digging around on the internet I stumbled on Zola, which seems to be both simple enough to use, and well documented so that I can learn it fast. Additionally, Zola is distributed as a native binary, which is extremely simple to get up and running without running into dependency issues, or having to install nodejs or other unnecessary things. Zola comes with a built in web-server, and monitors changes so that the site is recompiled on the fly, allowing for quick development.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;projects&#x2F;blog&#x2F;blogdev.png&quot; alt=&quot;screenshot light&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;getting-started&quot;&gt;Getting started&lt;&#x2F;h1&gt;
+&lt;p&gt;Getting started was easy enough as following the instructions from the &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola site&lt;&#x2F;a&gt;.
+I also installed Vscode for IDE&#x2F;text editor, and just added a TOML  syntax highlighting plugin, and a spell checker because I cannot spell.&lt;&#x2F;p&gt;
+&lt;p&gt;I am using the theme from &lt;a href=&quot;https:&#x2F;&#x2F;archie-zola.vercel.app&#x2F;&quot;&gt;https:&#x2F;&#x2F;archie-zola.vercel.app&#x2F;&lt;&#x2F;a&gt;, which I have modified to suit my needs.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;publishing&quot;&gt;Publishing&lt;&#x2F;h1&gt;
+&lt;p&gt;I am hosting this site on Cloudfare, as it is free for static sites. The Zola documentation also has a tutorial on setting this up too.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h1&gt;
+&lt;p&gt;Zola was a completely painless experience compared to the other SSG I played around with, and I managed to get this blog up and running in about 3 hours or so.
+There are still a few features that I want to add at a later date: RSS Feed, a Contact form, and rebuild the theme to better for what I envision, but for now I consider what has been accomplished a great start.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+</feed>
