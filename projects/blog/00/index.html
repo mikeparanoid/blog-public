@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>
+         Building this blog: Part 1 - Up and running
+        
+    </title>
+    
+
+    
+         <link rel="icon" type="image/png" href=&#x2F;icon&#x2F;favicon.png />
+    
+
+    
+
+    
+
+    
+
+    
+    
+        <script src=//www.mikeparanoid.com/js/feather.min.js></script>
+    
+
+
+    
+        <link href=//www.mikeparanoid.com/css/fonts.css rel="stylesheet" />
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=//www.mikeparanoid.com/css/main.css />
+
+    
+        <link
+            rel="stylesheet"
+            id="darkModeStyle"
+            type="text/css"
+            href=//www.mikeparanoid.com/css/dark.css
+            
+            
+                disabled
+            
+        />
+    
+
+
+    
+
+
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main" id="main_title">
+        <a href=&#x2F;&#x2F;www.mikeparanoid.com>Mike Paranoid&#x27;s Blog.</a>
+    </div>
+
+    <nav>
+        
+            <a href=&#x2F;blog>Blog</a>
+        
+            <a href=&#x2F;projects>Projects</a>
+        
+            <a href=&#x2F;about>About</a>
+        
+            <a href=&#x2F;tags>Tags</a>
+        
+
+        
+
+        
+            | <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
+            <script src=//www.mikeparanoid.com/js/themetoggle.js></script>
+        
+    </nav>
+</header>
+
+
+        
+    
+<main>
+    <article>
+        <div class="title">
+            <h1 class="title">Building this blog: Part 1 - Up and running</h1>
+            <div class="meta">
+                
+                on  2022-09-18
+
+                
+            </div>
+        </div>
+
+        
+
+        <section class="body">
+            <h1 id="intro">Intro</h1>
+<p>I have wanted to build a blog for a while, and after trying a number of different static site generators, I settled on Zola, because I think it is the simplest tool to get the job done for myself.</p>
+<p>Previously, I had played around with: Hugo, Pelican, and Lektor, but none of these were simple enough for me to be bothered to use.
+After digging around on the internet I stumbled on Zola, which seems to be both simple enough to use, and well documented so that I can learn it fast. Additionally, Zola is distributed as a native binary, which is extremely simple to get up and running without running into dependency issues, or having to install nodejs or other unnecessary things. Zola comes with a built in web-server, and monitors changes so that the site is recompiled on the fly, allowing for quick development.</p>
+<p><img src="/projects/blog/blogdev.png" alt="screenshot light" /></p>
+<h1 id="getting-started">Getting started</h1>
+<p>Getting started was easy enough as following the instructions from the <a href="https://www.getzola.org/">Zola site</a>.
+I also installed Vscode for IDE/text editor, and just added a TOML  syntax highlighting plugin, and a spell checker because I cannot spell.</p>
+<p>I am using the theme from <a href="https://archie-zola.vercel.app/">https://archie-zola.vercel.app/</a>, which I have modified to suit my needs.</p>
+<h1 id="publishing">Publishing</h1>
+<p>I am hosting this site on Cloudfare, as it is free for static sites. The Zola documentation also has a tutorial on setting this up too.</p>
+<h1 id="summary">Summary</h1>
+<p>Zola was a completely painless experience compared to the other SSG I played around with, and I managed to get this blog up and running in about 3 hours or so.
+There are still a few features that I want to add at a later date: RSS Feed, a Contact form, and rebuild the theme to better for what I envision, but for now I consider what has been accomplished a great start.</p>
+<hr />
+
+        </section>
+
+        
+
+    </article>
+</main>
+
+
+
+        <footer>
+  <div style="display:flex">
+    
+        <a class="soc" href=https:&#x2F;&#x2F;github.com&#x2F;mikeparanoid title=GitHub>
+            <i data-feather=github></i>
+        </a>
+    
+  </div>
+  <div class="footer-info">
+    2022 © Mike Paranoid | <a
+      href="https://www.getzola.org/">A Zola Powered Blog</a>
+  </div>
+</footer>
+
+
+<script>
+    feather.replace();
+</script>
+
+
+    </div>
+</body>
+
+</html>

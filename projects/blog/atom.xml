@@ -11,8 +11,8 @@
 		<title>Building this blog: Part 1 - Up and running</title>
 		<published>2022-09-18T00:00:00+00:00</published>
 		<updated>2022-09-18T00:00:00+00:00</updated>
-		<link rel="alternate" href="//www.mikeparanoid.com/projects/blog/00-project-zola-blog/" type="text/html"/>
-		<id>//www.mikeparanoid.com/projects/blog/00-project-zola-blog/</id>
+		<link rel="alternate" href="//www.mikeparanoid.com/projects/blog/00/" type="text/html"/>
+		<id>//www.mikeparanoid.com/projects/blog/00/</id>
 		<content type="html">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
 &lt;p&gt;I have wanted to build a blog for a while, and after trying a number of different static site generators, I settled on Zola, because I think it is the simplest tool to get the job done for myself.&lt;&#x2F;p&gt;
 &lt;p&gt;Previously, I had played around with: Hugo, Pelican, and Lektor, but none of these were simple enough for me to be bothered to use.

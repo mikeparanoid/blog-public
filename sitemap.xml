@@ -11,8 +11,12 @@
         <loc>//www.mikeparanoid.com/blog/</loc>
     </url>
     <url>
-        <loc>//www.mikeparanoid.com/blog/2022-10-02-whyiamstartingablog/</loc>
+        <loc>//www.mikeparanoid.com/blog/2022-10-02/</loc>
         <lastmod>2022-10-02</lastmod>
+    </url>
+    <url>
+        <loc>//www.mikeparanoid.com/blog/2022-10-04/</loc>
+        <lastmod>2022-10-04</lastmod>
     </url>
     <url>
         <loc>//www.mikeparanoid.com/page/1/</loc>
@@ -24,7 +28,7 @@
         <loc>//www.mikeparanoid.com/projects/blog/</loc>
     </url>
     <url>
-        <loc>//www.mikeparanoid.com/projects/blog/00-project-zola-blog/</loc>
+        <loc>//www.mikeparanoid.com/projects/blog/00/</loc>
         <lastmod>2022-09-18</lastmod>
     </url>
     <url>

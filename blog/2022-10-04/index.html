@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>
+         Tripping a Foot-gun I Set For Myself: Keepass. 
+        
+    </title>
+    
+
+    
+         <link rel="icon" type="image/png" href=&#x2F;icon&#x2F;favicon.png />
+    
+
+    
+
+    
+
+    
+
+    
+    
+        <script src=//www.mikeparanoid.com/js/feather.min.js></script>
+    
+
+
+    
+        <link href=//www.mikeparanoid.com/css/fonts.css rel="stylesheet" />
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=//www.mikeparanoid.com/css/main.css />
+
+    
+        <link
+            rel="stylesheet"
+            id="darkModeStyle"
+            type="text/css"
+            href=//www.mikeparanoid.com/css/dark.css
+            
+            
+                disabled
+            
+        />
+    
+
+
+    
+
+
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main" id="main_title">
+        <a href=&#x2F;&#x2F;www.mikeparanoid.com>Mike Paranoid&#x27;s Blog.</a>
+    </div>
+
+    <nav>
+        
+            <a href=&#x2F;blog>Blog</a>
+        
+            <a href=&#x2F;projects>Projects</a>
+        
+            <a href=&#x2F;about>About</a>
+        
+            <a href=&#x2F;tags>Tags</a>
+        
+
+        
+
+        
+            | <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
+            <script src=//www.mikeparanoid.com/js/themetoggle.js></script>
+        
+    </nav>
+</header>
+
+
+        
+    
+<main>
+    <article>
+        <div class="title">
+            <h1 class="title">Tripping a Foot-gun I Set For Myself: Keepass. </h1>
+            <div class="meta">
+                
+                on  2022-10-04
+
+                
+            </div>
+        </div>
+
+        
+
+        <section class="body">
+            <hr />
+<h1 id="background">Background</h1>
+<p>I have been using Keepass for 6 years minimum now. When I first started using it was around the time I was learning how to program, and thus when I was learning how to use computers.
+This meant that I was foolish and naive and thought I new everything (I doubt that much has changed) . So, in my awesome wisdom, I engineered a system with Keepass that was not fail-safe, and a system that was a massive foot-gun for my future self, which I recently shot myself with.</p>
+<p>So at the time, I had set Keepass up with both a keyfile and a master password. I put the keyfile onto every device that I would use to access the database (work computer, university account, home computer, phone) and I then I would carry a USB that had the Keepass database on it. I would synch this USB onto a specific USB on my home PC, and I also would have an encrypted backup copy of this Database on my local PC. It seemed totaly logical to me then, to have only a single instance of the database, and spread multiple keys on whatever devices I would need.</p>
+<p>Long story short, I lost the Keepass USB I had at my Home PC when I moved house, then my PC hard drive failed (maybe something to do with the move?), and then I lost my wallet a few days later. Within the space of a week I lost all my passwords and the backups! What a bloody disaster! 
+You can imagine the horror that I went through. After unpacking, the USB did not turn up, I called every cop-shop to see if my wallet turned up. Nope, it had not. </p>
+<h1 id="recovery">Recovery</h1>
+<p>Luckily, I could reset the password for my main Google account via text message, which then I slowly could reset passwords to all the services that I use daily that I am happy to be identified with: bank, phone, Amazon, eBay, etc. Also, my &quot;main&quot; junk emails that I use for social media, Steam, etc. are recoverable through this main email account. 
+Slowly, I was able to work my way through my main email and recover about 25% of lost accounts. The most difficult was recovering my Github account because I had no access to the registered email account, but I still had access to SSH keys on my laptop that I used to verify my account, and reset the passwords (good on Microsoft for having decent support on the Github team). </p>
+<p>Trying to keep a positive outlook: I got a free spring-cleaning of my password database. I have been using single-use email address for many random services and I did not even remember what half of them were used for, so losing access to these services was no big deal. </p>
+<h1 id="what-i-have-learned">What I have learned.</h1>
+<p>What I learned is to no longer assume things, and that I should engineer even against the improbable. Million-to-one odds happen every 9 in 10 hey.</p>
+<p>So for the  next iteration of my Keepass password, I have decided to go the opposite route: I store the password database in a single location (currently on Google Drive) that I keep synced on all devices that I want to have access on. I might even see if I can host this on a website or Cloud device, so that only ever &quot;see&quot; a single version of the database, and thus not have to think about keeping any database synchronised.</p>
+<p>Then, on my USB drives, I keep the key file. I now still have a USB on my computer desk as a backup, but I also have written down the key file and have this piece of paper filed away as a last-resort backup.</p>
+<p>Thus, the only even that I cause me total loss if I somehow loose all the USBs, and key-paper at once (which has made me realise that I vulnerable to house fire, so I now also store a copy of the key at my work office). Or if Google decide to kick me off their platform, which is actually a concern. Maybe it is time to look at a viable alternative to Google for email and cloud storage ... great idea for a quick project!</p>
+
+        </section>
+
+        
+            <div class="post-tags">
+                <nav class="nav tags">
+                    <ul class="tags">
+                        
+                            <li><a href=//www.mikeparanoid.com/tags/blog/>blog</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        
+
+    </article>
+</main>
+
+
+
+        <footer>
+  <div style="display:flex">
+    
+        <a class="soc" href=https:&#x2F;&#x2F;github.com&#x2F;mikeparanoid title=GitHub>
+            <i data-feather=github></i>
+        </a>
+    
+  </div>
+  <div class="footer-info">
+    2022 © Mike Paranoid | <a
+      href="https://www.getzola.org/">A Zola Powered Blog</a>
+  </div>
+</footer>
+
+
+<script>
+    feather.replace();
+</script>
+
+
+    </div>
+</body>
+
+</html>
